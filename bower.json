@@ -1,0 +1,21 @@
+{
+  "name": "jlUtil",
+  "version": "0.0.0",
+  "authors": [
+    "Rob Jinman <admin@robjinman.com>"
+  ],
+  "description": "AngularJS module containing general utility functions. Originally part of the JLoop project.",
+  "license": "MIT License",
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "src",
+    "test",
+    "vendor"
+  ],
+  "dependencies": {
+    "angular": "~1.3.x",
+    "angular-mocks": "~1.3.x",
+    "jquery": "~2.1.1"
+  }
+}

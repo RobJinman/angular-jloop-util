@@ -5,13 +5,17 @@
     "Rob Jinman <admin@robjinman.com>"
   ],
   "description": "AngularJS module containing general utility functions. Originally part of the JLoop project.",
+  "main": [
+    "dist/jlUtil.min.js"
+  ],
   "license": "MIT License",
   "private": true,
   "ignore": [
     "node_modules",
     "src",
     "test",
-    "vendor"
+    "vendor",
+    ".gitignore"
   ],
   "dependencies": {
     "angular": "~1.3.x",

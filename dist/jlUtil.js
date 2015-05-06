@@ -223,4 +223,15 @@ angular.module("jlUtil", [])
   */
   .factory("jlWindow", ["$window", function($window) {
     return jQuery($window);
+  }])
+
+  /**
+  * (SERVICE) Represents the document
+  *
+  * @namespace jlUtil
+  * @class jlDocument
+  * @static
+  */
+  .factory("jlDocument", ["$document", function($document) {
+    return jQuery($document);
   }]);
